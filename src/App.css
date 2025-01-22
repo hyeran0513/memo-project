@@ -1,62 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   display: flex;
   height: 100vh;
-}
-
-.SideBar {
-  background-color: aqua;
-  width: 200px;
-}
-
-.SideBarFooter {
-  padding: 10px;
-  text-align: center;
-}
-
-.SideBarFooter__add-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  padding: 10px;
-  color: #555;
-  background: none;
-  border-radius: 100px;
-  border: 2px solid #555;
-  width: 40px;
-  height: 40px;
-  font-size: 1.3rem;
-  opacity: 0.6;
-  cursor: pointer;
-}
-
-.MemoItem {
-  width: 100%;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  padding: 5px 8px;
-}
-
-.MemoItem.selected {
-  background-color: rgba(100, 100, 100, 0.3);
-  font-weight: 500;
-}
-
-.MemoContainer {
-  background-color: beige;
-  flex: 1;
-}
-
-.MemoContainer__title {
-  width: 100%;
-  box-sizing: border-box;
-  font-size: 2rem;
-}
-
-.MemoContainer__content {
-  width: 100%;
-  min-height: 600px;
-  box-sizing: border-box;
-  font-size: 1.1rem;
 }

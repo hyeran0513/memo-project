@@ -1,7 +1,8 @@
 import React from 'react';
+import './index.css';
 
 const SideBarHeader = () => {
-  return <div>SideBarHeader</div>;
+  return <div className="SideBarHeader">메모장</div>;
 };
 
 export default SideBarHeader;
